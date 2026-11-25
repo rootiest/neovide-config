@@ -1,0 +1,6 @@
+# Copyright (C) 2026 Rootiest
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Neovide's startup message capture attaches with ext_messages/ext_cmdline
+# until the first grid render, which makes noice.nvim refuse to load.
+startup-message-capture = false
